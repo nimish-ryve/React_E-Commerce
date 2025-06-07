@@ -79,13 +79,13 @@ const Products = () => {
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => setFilter(data)}
           >
-            All categories
+            All
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("men's clothing")}
           >
-            Clothing
+            Men's Clothing
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
@@ -126,7 +126,7 @@ const Products = () => {
                     {product.title.substring(0, 12)}...
                   </h5>
                   <p className="card-text">
-                    {product.description.substring(0, 70)}...
+                    {product.description.substring(0, 90)}...
                   </p>
                 </div>
                 <ul className="list-group list-group-flush">
