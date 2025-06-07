@@ -137,12 +137,12 @@ const Products = () => {
                 <div className="card-body">
                   <Link
                     to={"/product/" + product.id}
-                    className="btn m-1"
+                    className="btn btn-dark m-1"
                   >
-                    Buy Now
+                    Buy Now please
                   </Link>
                   <button
-                    className="btn m-1"
+                    className="btn btn-dark m-1"
                     onClick={() => {
                       toast.success("Added to cart");
                       addProduct(product);
