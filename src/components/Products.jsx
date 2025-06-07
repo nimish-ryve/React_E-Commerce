@@ -142,7 +142,7 @@ const Products = () => {
                     Buy Now
                   </Link>
                   <button
-                    className="btn btn-dark m-1"
+                    className="btn btn-outline-dark m-1"
                     onClick={() => {
                       toast.success("Added to cart");
                       addProduct(product);
