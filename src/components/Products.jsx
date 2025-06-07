@@ -79,31 +79,31 @@ const Products = () => {
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => setFilter(data)}
           >
-            All products
+            All categories
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("men's clothing")}
           >
-            Clothing for men
+            Men's Clothing
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("women's clothing")}
           >
-            Clothing for women 
+            Women's Clothing
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("jewelery")}
           >
-            Jewelry
+            Jewelery
           </button>
           <button
             className="btn btn-outline-dark btn-sm m-2"
             onClick={() => filterProduct("electronics")}
           >
-            Electronics products
+            Electronics
           </button>
         </div>
 
