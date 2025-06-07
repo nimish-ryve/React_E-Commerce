@@ -147,6 +147,9 @@ const Products = () => {
                       toast.success("Added to cart");
                       addProduct(product);
                     }}
+                    onFocus={() => {
+                      console.log("Added to cart");
+                    }}
                   >
                     Add to Cart
                   </button>
